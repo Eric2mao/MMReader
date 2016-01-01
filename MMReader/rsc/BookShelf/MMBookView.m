@@ -1,15 +1,14 @@
 //
-//  ViewController.h
+//  MMBookView.m
 //  MMReader
 //
 //  Created by YuxiMao on 15/12/23.
 //  Copyright © 2015年 YuxiMao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MMBookView.h"
 
-@interface ViewController : UIViewController
+@implementation MMBookView
 
 
 @end
-
