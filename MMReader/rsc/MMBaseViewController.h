@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define MMNavigationBarHeight       68
+
 @interface MMBaseViewController : UIViewController
 
 @property(nonatomic, strong) UINavigationBar *mmNavigationBar;

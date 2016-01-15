@@ -8,8 +8,6 @@
 
 #import "MMBaseViewController.h"
 
-#define MMNavigationBarHeight       68
-
 @interface MMBaseViewController ()
 
 @end

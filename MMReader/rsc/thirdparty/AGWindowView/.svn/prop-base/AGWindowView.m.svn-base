@@ -1,0 +1,55 @@
+K 14
+svn:executable
+V 1
+*
+K 13
+svn:mergeinfo
+V 8441
+/QQBrowser_iPhone_proj/branches/AppstoreRelease_MttBrowser_6.0/mtt/Classes/util/AGWindowView/AGWindowView.m:288007-288008,288014,288044,288064,288074,288079,288084,288091,288169-288170,288224,288247,288280,288287,288296,288303,288343,288353,288380,288389,288395,288409,288434,288469,288529,288541,288608,288610,288616,288631,288658,288663,288684,288691,288716,288731,288781,288800-288801,288825,288828,288889,288896,288911,288935,289008,289013,289022,289025,289035,289051,289055,289066-289067,289069,289079-289080,289103,289208,289239,289246,289256,289272,289317,289345,289349,289351-289352,289365,289373,289383-289393,289397-289398,289400,289442,289453-289455,289469,289472-289475,289601,289668,289672,289715,289719,289802,289810,289813,289815,289865,289877,289902,289910,290049,290088,290111-290112,290114,290116-290117,290200,290209,290293,290297,290309,290358,290392,290468,290497,290513,290530,290641,290685,290743-290744,290766,290768-290770,290846,290867,290870-290871,290887,290971,291252,291276,291308,291365,291386,291406,291418-291499,291542-291543,291586,291650,291654,291661,291766,291853,291983,292346,292860-292864,292950,293007,293089,293130-293131,293139-293290,293311-293392,293396-293583,293585,293612-293705,293756,293768,293790,293811,293861-293862,293895-294139,294178-294183,294202-294205,294210,294388,294408-294458,294486,294586,294626-294627,294631,294645,294661,294699,294745,294766,294794,294796,294875,294938-294949,294976,295015,295162,295180,295341,295447,295457,295593,295597,295658,295667,295698,295754,295761,295803,295825,295842,295872,295874,295888,295899,295901,295903-295904,295967-295968,295976,296078,296103,296119,296121,296135,296139,296143,296146,296152,296155,296160,296284,296295,296351,296384,296405,296421,296444,296451,296479,296539,296559,296579,296586,296595,296608,296628,296636,296645,296840,296947,296980,297039,297051,297268,297313
+/QQBrowser_iPhone_proj/branches/AppstoreRelease_MttBrowser_6.1/Classes/util/AGWindowView/AGWindowView.m:305474-308000
+/QQBrowser_iPhone_proj/branches/AppstoreRelease_MttBrowser_6.1.1/Classes/util/AGWindowView/AGWindowView.m:308001-308434
+/QQBrowser_iPhone_proj/branches/AppstoreRelease_MttBrowser_6.1.2/Classes/util/AGWindowView/AGWindowView.m:308435-311455
+/QQBrowser_iPhone_proj/branches/AppstoreRelease_MttBrowser_6.1.2_NoPrivateAPI/Classes/util/AGWindowView/AGWindowView.m:311955-318378
+/QQBrowser_iPhone_proj/branches/AppstoreRelease_MttBrowser_6.2/mtt/Classes/util/AGWindowView/AGWindowView.m:328164-335415
+/QQBrowser_iPhone_proj/branches/MOMA/QQBrowser_MOMA_gama/Classes/util/AGWindowView/AGWindowView.m:90984-91097
+/QQBrowser_iPhone_proj/branches/MTTBrowser_NOVEL_5.8.1_FINAL/Classes/util/AGWindowView/AGWindowView.m:272827,272840-272841,273454,273507-273733,273906-274170,274310-274632,274793-275099,275141-275166,275595-275736,276053-276172,276431-276517,276942-276970,277442,278523,278578-278612,278828-280768,282805-282806,284015,284866,285641
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_5.2_Appstore/Classes/util/AGWindowView/AGWindowView.m:207058-208600,211859-215036
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_5.3_Appstore/mtt/Classes/util/AGWindowView/AGWindowView.m:221676-224529
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_5.3_IOS8/mtt/Classes/util/AGWindowView/AGWindowView.m:222567-228723
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_5.8_CreativeShare/mtt/Classes/util/AGWindowView/AGWindowView.m:262831-266053
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_5.8_Novel/Classes/util/AGWindowView/AGWindowView.m:259044,259186,259247,259314,259319,259365,259370,259375,259384,259463,259472,259478,259480,259482,259486,259705,259728-259776,259803,259935,260112,260136,260181,260348,260434-260520,260740,260792,260798-260801,260806-260807,260850,260981-261108,261114-261150,261192-261260,261262-261315,261428-261557,261615-261670,261681-261694,261697-261759,261792-261795,261800-261932,262311-262471,262593-262905,262948-263075,263080-263226,263373-263396,263542-263660,263740-263880,263948-264081,264125-264252,264381-264404,264596-264696,264728,265008-265072,265206-266126,266734-266852,267000-267168,267491-267656,267723-267974,268125-268375,268476-268748,268876-269023,269059,269093-269131,269269-269522,269777-270067,270076-270321,271291-271512,271714-271986,272164-272686,272741,272754
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_6.0_UI_Dev/Classes/util/AGWindowView/AGWindowView.m:265339-273719
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_6.1_fullscreen/mtt/Classes/util/AGWindowView/AGWindowView.m:294969-308296
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_6.2_MyVideo/Classes/util/AGWindowView/AGWindowView.m:317524-320638
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_6.3/mtt/Classes/util/AGWindowView/AGWindowView.m:324974-328730
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_6.3_FeedsStream/Classes/util/AGWindowView/AGWindowView.m:319233-332830
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_6.3_ReleaseGame/Classes/util/AGWindowView/AGWindowView.m:335462
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_IOS8/mtt/Classes/util/AGWindowView/AGWindowView.m:222564-222566
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_ReadingCenter/mtt/Classes/util/AGWindowView/AGWindowView.m:307347-320086
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_JSNet/mtt/Classes/util/AGWindowView/AGWindowView.m:323280-330590
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_MiniPlayer_Demo/Classes/util/AGWindowView/AGWindowView.m:256094-265455
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_MttCut_ContainWap1.0/mtt/Classes/util/AGWindowView/AGWindowView.m:262975-275641
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_NightModeAnimation/mtt/Classes/util/AGWindowView/AGWindowView.m:291006-298384
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_PrivacyMode/mtt/Classes/util/AGWindowView/AGWindowView.m:291381-302001
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_Ranger_6.2/mtt/Classes/util/AGWindowView/AGWindowView.m:307583-309903
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_Ranger_6.2_WK/mtt/Classes/util/AGWindowView/AGWindowView.m:311837-329215
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_Release1.0_SendQueue/mtt/Classes/util/AGWindowView/AGWindowView.m:262192-264156
+/QQBrowser_iPhone_proj/branches/MttBrowser_iPhone_qvod/Classes/util/AGWindowView/AGWindowView.m:197916-201520
+/QQBrowser_iPhone_proj/branches/Tag_qqbrowser_6.1.0.1693_iPhone_0/Classes/util/AGWindowView/AGWindowView.m:305472-305473
+/QQBrowser_iPhone_proj/branches/VideoPlayer6.2/mtt/Classes/util/AGWindowView/AGWindowView.m:311062-316941
+/QQBrowser_iPhone_proj/branches/cloududisk3.5_2/Classes/util/AGWindowView/AGWindowView.m:79752-79757
+/QQBrowser_iPhone_proj/branches/iphone_browser_3.1_flash_opt/Classes/util/AGWindowView/AGWindowView.m:54169-54974
+/QQBrowser_iPhone_proj/branches/qqbrowser_3.3_nd/mtt/Classes/util/AGWindowView/AGWindowView.m:65191,66026,67768,70690-70691
+/QQBrowser_iPhone_proj/branches/qqbrowser_3.6_for_appstore/Classes/util/AGWindowView/AGWindowView.m:84012-86601,86951
+/QQBrowser_iPhone_proj/branches/qqbrowser_3.6_refactor_for_add_app/Classes/util/AGWindowView/AGWindowView.m:76158-76552
+/QQBrowser_iPhone_proj/branches/qqbrowser_3.8_for_appstore/Classes/util/AGWindowView/AGWindowView.m:102511-103676
+/QQBrowser_iPhone_proj/branches/qqbrowser_3.9.1_for_appstore_bug_fix/Classes/util/AGWindowView/AGWindowView.m:110928-111300
+/QQBrowser_iPhone_proj/branches/qqbrowser_4.2.1_for_appstore/Classes/util/AGWindowView/AGWindowView.m:124125-126395
+/QQBrowser_iPhone_proj/branches/qqbrowser_4.2_for_appstore/Classes/util/AGWindowView/AGWindowView.m:120944-122208,123310-123639,124798-124926
+/QQBrowser_iPhone_proj/branches/qqbrowser_4.3_for_appstore/Classes/util/AGWindowView/AGWindowView.m:134512-135032,136767
+/QQBrowser_iPhone_proj/branches/qqbrowser_4.4_for_add_readingcenter_report/Classes/util/AGWindowView/AGWindowView.m:146340-146769
+/QQBrowser_iPhone_proj/branches/qqbrowser_iphone_4.0_rc_test/Classes/util/AGWindowView/AGWindowView.m:108882-113330
+/QQBrowser_iPhone_proj/branches/qqbrowser_menuchange/Classes/util/AGWindowView/AGWindowView.m:49797-51484
+/QQBrowser_iPhone_proj/tags/Tag_qqbrowser_6.1.0.1693_iPhone_0/Classes/util/AGWindowView/AGWindowView.m:305325-305470
+/QQBrowser_iPhone_proj/tags/qqbrowser_3.0_build0025_appstore_r/Classes/util/AGWindowView/AGWindowView.m:54350-55882
+END

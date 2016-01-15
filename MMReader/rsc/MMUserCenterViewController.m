@@ -14,6 +14,7 @@
 @interface MMUserCenterViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
+
 @end
 
 @implementation MMUserCenterViewController
@@ -115,11 +116,18 @@
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
     NSLog(@"%@ was selected.", indexPath);
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"this is alert view" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:nil, nil];
+    [alertView show];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+-(void) windowWasClicked:(id)sender
+{
+    NSLog(@"%@", sender);
+    self.window = nil;
+    [self.window removeFromSuperview];
     
+    [self.oldWindow makeKeyAndVisible];
 }
 
 @end

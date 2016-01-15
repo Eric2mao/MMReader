@@ -7,12 +7,13 @@
 //
 
 #import "MMShelfViewController.h"
+#import "MMShelfView.h"
 
 @interface MMShelfViewController ()
 {
-    UIViewController *fromVC;
-    UIViewController *toVC;
 }
+
+@property (nonatomic, strong) MMShelfView *shelfView;
 
 @end
 
@@ -23,9 +24,13 @@
     self = [super init];
     if (self) {
         UITabBarItem * tabBarItem = [self tabBarItem];
-        [tabBarItem setTitle:@"书城"];
+        [tabBarItem setTitle:@"书架"];
         UIImage *image = [UIImage imageNamed:@"novel_shelf_store_btn"];
         [tabBarItem setImage:image];
+        
+        NSLog(@"image scale %@", @(image.scale));
+        UIImage *scaledImage = [[UIImage alloc] initWithCGImage:image.CGImage scale:3 orientation:image.imageOrientation];
+        NSLog(@"scaledImage %@", @(scaledImage.scale));
     }
     
     return self;
@@ -34,6 +39,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    MMShelfView *shelfView = [[MMShelfView alloc] initWithFrame:CGRectMake(0, MMNavigationBarHeight, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.frame) - MMNavigationBarHeight)];
+    shelfView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    self.shelfView = shelfView;
+    [self.view addSubview:shelfView];
     
     [self createNavigationBar];
 }
@@ -51,60 +61,6 @@
 {
     NSLog(@"editButtonClicked");
     
-    MMBaseViewController *baseViewController = [[MMBaseViewController  alloc] init];
-    baseViewController.view.backgroundColor = [UIColor greenColor];
-    [baseViewController addNavigationBar];
-    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@""];
-    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(backButtonClicked:)];
-    navigationItem.leftBarButtonItem = leftItem;
-    [baseViewController.mmNavigationBar pushNavigationItem:navigationItem animated:NO];
-    
-//    fromVC = baseViewController;
-//    [self addChildViewController:baseViewController];
-//    [self.view addSubview:baseViewController.view];
-//    
-//    MMBaseViewController *vc = [[MMBaseViewController  alloc] init];
-//    vc.view.backgroundColor = [UIColor redColor];
-//    [vc addNavigationBar];
-//    UINavigationItem *navigationItem2 = [[UINavigationItem alloc] initWithTitle:@""];
-//    UIBarButtonItem *leftItem2 = [[UIBarButtonItem alloc] initWithTitle:@"返回" style:UIBarButtonItemStylePlain target:self action:@selector(backButtonClicked2:)];
-//    navigationItem2.leftBarButtonItem = leftItem2;
-//    [vc.mmNavigationBar pushNavigationItem:navigationItem2 animated:NO];
-//    toVC = vc;
-//    [self addChildViewController:toVC];
-    
-    baseViewController.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
-    [self presentViewController:baseViewController animated:YES completion:nil];
-}
-
-- (void)backButtonClicked:(id) sender
-{
-    __weak typeof(self) weakSelf = self;
-    [self transitionFromViewController:fromVC
-                      toViewController:toVC
-                              duration:0.3
-                               options:UIViewAnimationOptionTransitionFlipFromLeft
-                            animations:^{} completion:^(BOOL finished){
-                                [fromVC.view removeFromSuperview];
-                                [fromVC removeFromParentViewController];
-                                [toVC didMoveToParentViewController:weakSelf];
-                                
-                            }];
-}
-
-- (void)backButtonClicked2:(id) sender
-{
-    __weak typeof(self) weakSelf = self;
-    [self transitionFromViewController:toVC
-                      toViewController:fromVC
-                              duration:0.3
-                               options:UIViewAnimationOptionTransitionFlipFromLeft
-                            animations:^{} completion:^(BOOL finished){
-                                [toVC.view removeFromSuperview];
-                                [toVC removeFromParentViewController];
-                                [fromVC didMoveToParentViewController:weakSelf];
-                                
-                            }];
 }
 
 @end
